@@ -1,0 +1,220 @@
+nav {
+    height: 100px;
+    background-color: rgb(0, 0, 0, 0.65);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    width: 100%;
+    position: fixed;
+}
+
+section {
+    height: 1000px;
+    background-color: orange;
+    width: 100%;
+}
+
+footer {
+    background-color: black;
+    height: 350px;
+    margin: 0px;
+    bottom: 0px;
+    padding-left: 100px;
+    padding-top: 100px;
+}
+
+body {
+    color: white;
+    font-family: Circular, Helvetica, Arial, sans-serif;
+    margin: 0px;
+}
+
+.logo {
+    width: 150px;
+}
+
+section {
+    height: 800px;
+    background-color: #f037a5;
+    background: linear-gradient(#f037a5 -60%, #fae62d 140%);
+    background: -webkit-gradient( linear, left top, left bottom, color-stop(-60%, #f037a5), color-stop(140%, #fae62d));
+}
+
+.hero-img {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("https://www.scdn.co/i/home/hero-burst.svg");
+    align-items: center;
+}
+
+.main-container>.Music {
+    font-size: 70px;
+    font-weight: 900;
+}
+
+.main-container {
+    text-align: center;
+    line-height: 80px;
+}
+
+.main-container>.Millions {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.row {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.menu>a {
+    text-decoration: none;
+    color: white;
+    margin: 20px;
+    font-weight: 700;
+}
+
+.menu>a:hover {
+    color: #1DB954;
+}
+
+button {
+    background-color: #1DB954;
+    border: none;
+    border-radius: 20px;
+    height: 50px;
+    width: 250px;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px;
+    letter-spacing: 2px;
+}
+
+button:hover {
+    background-color: lightgreen;
+    cursor: pointer;
+    color: black;
+    font-weight: 900;
+    border: black solid 2px;
+}
+
+ul>li {
+    margin: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    list-style: none;
+}
+
+.icons2 {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 40px;
+}
+
+.icons>i {
+    margin: 10px;
+    padding: 20px;
+    color: white;
+    vertical-align: middle;
+}
+
+.fab {
+    font-size: 25px;
+    background-color: #222326;
+    height: 25px;
+    width: 25px;
+    text-align: center;
+    border-radius: 40px;
+}
+
+.icons>i:hover {
+    color: #1DB954;
+    cursor: pointer;
+}
+
+footer {
+    font-family: Circular, Helvetica, Arial, sans-serif;
+    padding-right: 200px;
+    padding-left: 200px;
+    height: 400px;
+    padding-top: 50px;
+}
+
+.bottom-footer {
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    color: gray;
+}
+
+.footer2 {
+    margin-right: 50px;
+    color: white;
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.footer2>p {
+    margin-top: 5px;
+    font-size: 12px;
+    color: #919496;
+}
+
+.footer1 {
+    display: flex;
+    align-items: flex-end;
+    padding-right: 0px;
+}
+
+.footer1>a {
+    vertical-align: bottom;
+}
+
+.footer1>a {
+    text-decoration: none;
+    margin: 15px;
+    color: #919496;
+    font-size: 12px;
+}
+
+.footer1>a:hover {
+    color: #1DB954;
+    cursor: pointer;
+}
+
+.flag {
+    text-align: right;
+    color: #919496;
+}
+
+.flag>span:hover {
+    color: #1DB954;
+    cursor: pointer;
+}
+
+.flag>img {
+    margin-left: 10px;
+}
+
+.row2>li:hover {
+    color: #1DB954;
+    cursor: pointer;
+}
+
+.name-of-li {
+    margin-left: 30px;
+    font-size: 14px;
+    color: gray;
+    font-weight: bold;
+}
